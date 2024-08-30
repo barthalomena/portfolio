@@ -8,7 +8,10 @@ header ul li {
 }
 
 .bg-primary{
-    background: rgb(155, 128, 234);
+    background: rgb(187, 140, 237);
+}
+.bg-secondary{
+    background:  rgb(131, 95, 239);
 }
 .mobile-nav{
     @apply fixed top-10 left-0 bg-gray-600 w-full h-1/3
