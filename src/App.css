@@ -7,11 +7,12 @@ header ul li {
     @apply px-2;
 }
 
-.bg-primary{
-    background: rgb(187, 140, 237);
+.bg-primary {
+    background: rgb(228, 173, 241);
 }
-.bg-secondary{
-    background:  rgb(131, 95, 239);
+
+.bg-secondary {
+    background: rgb(121, 88, 221);
 }
 .mobile-nav{
     @apply fixed top-10 left-0 bg-gray-600 w-full h-1/3

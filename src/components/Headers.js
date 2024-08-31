@@ -15,7 +15,7 @@ const [togglemenu, setToggleMenu] = useState(false);
 
         </ul>
         </nav>
-       { togglemenu && <nav className="block md:hidden ">
+       { togglemenu && <nav className="block md:hidden text-black">
         <ul className="flex flex-col text-white mobile-nav">
             <li>Home</li>
             <li>About</li>
