@@ -1,4 +1,4 @@
-import HeroImg from '../assets/Blowing a dandelion-amico.png'
+import HeroImg from '../assets/Online resume-bro.png'
 import { AiOutlineTwitter,AiOutlineFacebook,AiOutlineLinkedin,AiOutlineGithub } from "react-icons/ai";
 export default function Hero(){
     const config={
@@ -6,10 +6,10 @@ export default function Hero(){
    return <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center' id='hero'>
        <div className='md:w-1/2 flex flex-col'>
     <h1 className='text-white text-6xl font-hero-font'>
-        Hi, <br/> I am <span className='text-black'> Barthalomena </span> <p className='text-2xl'>{config.desingnation}</p>
+        Hi, <br/> I am <span className='text-cool'> Barthalomena </span> <p className='text-2xl'>{config.desingnation}</p>
     </h1>
     
-    <div className='flex py-10'>
+    <div className='flex py-10 text-green'>
         <a href='#' className='pr-5 hover:text-white'>
             <AiOutlineTwitter size={40}/>
         </a>

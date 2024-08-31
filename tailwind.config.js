@@ -7,7 +7,13 @@ module.exports = {
     extend: {},
     fontFamily:{
       'hero-font':'Sriracha',
-      'borderColor':'rgb(228, 173, 241)'
+    },
+    colors:{
+      cool:'#F0EDCC',
+      white:'#FFFFF0',
+      black:'#02343F',
+      green:'#000000',
+      silver:'#C0C0C0'
     }
   },
   plugins: [],
