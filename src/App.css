@@ -30,3 +30,6 @@ header ul li {
 .project-desc-p1{
     @apply  py-5 px-0
 }
+.btn{
+   @apply bg-primary px-5 py-2 font-bold text-black hover:border-2 rounded ; 
+}
