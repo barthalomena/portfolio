@@ -4,6 +4,7 @@ import Header from './components/Headers';
 import Hero from './components/Hero';
 import About from './components/about';
 import Project from './components/projects';
+import Resume from './components/resume'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
    <Hero />
    <About/>
    <Project/>
+   <Resume/>
   </div>
   );
 }
