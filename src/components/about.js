@@ -1,7 +1,7 @@
 import AboutImg from '../assets/Organizing projects-amico.png'
 export default function About(){
 
-return<section className='flex flex-col md:flex-row bg-secondary px-5'>
+return<section className='flex flex-col md:flex-row bg-secondary px-5 ' id='about'>
     <div className='md:w-1/2 py-5'>
         <img src={AboutImg}></img>
     </div>

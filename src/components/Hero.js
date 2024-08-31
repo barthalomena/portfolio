@@ -1,11 +1,12 @@
 import HeroImg from '../assets/Blowing a dandelion-amico.png'
 import { AiOutlineTwitter,AiOutlineFacebook,AiOutlineLinkedin,AiOutlineGithub } from "react-icons/ai";
 export default function Hero(){
-    
-   return <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center'>
+    const config={
+        desingnation:"I am a Developer"}
+   return <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center' id='hero'>
        <div className='md:w-1/2 flex flex-col'>
     <h1 className='text-white text-6xl font-hero-font'>
-        Hi, <br/> I am <span className='text-black'> Barthalomena </span> <p className='text-2xl'>I am a Tester</p>
+        Hi, <br/> I am <span className='text-black'> Barthalomena </span> <p className='text-2xl'>{config.desingnation}</p>
     </h1>
     
     <div className='flex py-10'>
